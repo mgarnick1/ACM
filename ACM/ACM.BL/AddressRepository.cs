@@ -12,8 +12,9 @@ namespace ACM.BL
 		{
 			Address address = new Address(addressId);
 
-			if ( addressId == 1)
+			if (addressId == 1)
 			{
+				address.AddressType = 1;
 				address.StreetLine1 = "Bag End";
 				address.StreetLine2 = "Bagshot row";
 				address.City = "Hobbiton";
