@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{44B7A217
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACM.BLTest", "ACM.BLTest\ACM.BLTest.csproj", "{ECA0086F-65CC-4432-A7CF-00922D124130}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acme.Common", "Acme.Common\Acme.Common.csproj", "{737DF323-50E4-4502-9581-C8EA78FA9EAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acme.CommonTest", "Acme.CommonTest\Acme.CommonTest.csproj", "{520DA251-C206-493F-A8A9-EF96AA65CC86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +27,21 @@ Global
 		{ECA0086F-65CC-4432-A7CF-00922D124130}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECA0086F-65CC-4432-A7CF-00922D124130}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECA0086F-65CC-4432-A7CF-00922D124130}.Release|Any CPU.Build.0 = Release|Any CPU
+		{737DF323-50E4-4502-9581-C8EA78FA9EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{737DF323-50E4-4502-9581-C8EA78FA9EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{737DF323-50E4-4502-9581-C8EA78FA9EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{737DF323-50E4-4502-9581-C8EA78FA9EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{520DA251-C206-493F-A8A9-EF96AA65CC86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{520DA251-C206-493F-A8A9-EF96AA65CC86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{520DA251-C206-493F-A8A9-EF96AA65CC86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{520DA251-C206-493F-A8A9-EF96AA65CC86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{ECA0086F-65CC-4432-A7CF-00922D124130} = {44B7A217-FE48-47F9-BF1D-AB05D7F0BC43}
+		{520DA251-C206-493F-A8A9-EF96AA65CC86} = {44B7A217-FE48-47F9-BF1D-AB05D7F0BC43}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C4A395FD-DFB7-4FC2-B0C2-E5B50D17B561}

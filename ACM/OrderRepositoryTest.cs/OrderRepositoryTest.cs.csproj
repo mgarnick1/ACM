@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{ECA0086F-65CC-4432-A7CF-00922D124130}</ProjectGuid>
+    <ProjectGuid>{98E212C9-726F-48C9-9051-6689CE761E26}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ACM.BLTest</RootNamespace>
-    <AssemblyName>ACM.BLTest</AssemblyName>
+    <RootNamespace>OrderRepositoryTest.cs</RootNamespace>
+    <AssemblyName>OrderRepositoryTest.cs</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -49,25 +49,11 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomerTest.cs" />
+    <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="CustomerRepositoryTest.cs" />
-    <Compile Include="OrderRepositoryTest.cs" />
-    <Compile Include="ProductRepositoryTests.cs" />
-    <Compile Include="LoggingServiceTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ACM.BL\ACM.BL.csproj">
-      <Project>{d048b9c1-d6c9-44ed-9aad-b69f425e921b}</Project>
-      <Name>ACM.BL</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Acme.Common\Acme.Common.csproj">
-      <Project>{737DF323-50E4-4502-9581-C8EA78FA9EAC}</Project>
-      <Name>Acme.Common</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

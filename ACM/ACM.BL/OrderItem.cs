@@ -18,11 +18,8 @@ namespace ACM.BL
 		}
 
 		public int OrderItemId { get; private set; }
-
 		public int OrderQuantity { get; set; }
-
 		public int ProductId { get; set; }
-
 		public decimal? PurchasePrice { get; set; }
 
 		public OrderItem Retrieve(int orderItemId)

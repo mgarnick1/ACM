@@ -16,6 +16,10 @@ namespace ACM.BL
 		public Product Retrieve(int productId)
 		{
 			Product product = new Product(productId);
+			Object myObject = new object();
+
+			Console.WriteLine("Object: " + myObject.ToString());
+			Console.WriteLine("Object: " + product.ToString());
 
 			if (productId == 2)
 			{
@@ -30,9 +34,22 @@ namespace ACM.BL
 		/// Save the current products.
 		/// </summary>
 		/// <returns></returns>
-		public bool Save()
+		public bool Save(Product product)
 		{
-			return true;
+			var success = true;
+			if (product.HasChanges && product.IsValid)
+			{
+				if (product.IsNew)
+				{
+
+				}
+
+				else
+				{
+
+				}
+			}
+			return success;
 		}
 	}
 }
